@@ -22,7 +22,6 @@
 		AE48D9A11AB66CB100109FA1 /* MBProgress3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE48D9991AB66CB100109FA1 /* MBProgress3@3x.png */; };
 		AE48D9A21AB66CB100109FA1 /* MBProgress4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE48D99A1AB66CB100109FA1 /* MBProgress4@2x.png */; };
 		AE48D9A31AB66CB100109FA1 /* MBProgress4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE48D99B1AB66CB100109FA1 /* MBProgress4@3x.png */; };
-		AE48D9A61AB6752800109FA1 /* HMAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE48D9A51AB6752800109FA1 /* HMAnimationView.m */; };
 		AE98F8641AB6D6D700E1F36B /* HMAnimationImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE98F8631AB6D6D700E1F36B /* HMAnimationImageView.m */; };
 		AE98F8671AB6E6CE00E1F36B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE98F8661AB6E6CE00E1F36B /* SecondViewController.m */; };
 /* End PBXBuildFile section */
@@ -59,8 +58,6 @@
 		AE48D9991AB66CB100109FA1 /* MBProgress3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBProgress3@3x.png"; sourceTree = "<group>"; };
 		AE48D99A1AB66CB100109FA1 /* MBProgress4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBProgress4@2x.png"; sourceTree = "<group>"; };
 		AE48D99B1AB66CB100109FA1 /* MBProgress4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBProgress4@3x.png"; sourceTree = "<group>"; };
-		AE48D9A41AB6752800109FA1 /* HMAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMAnimationView.h; sourceTree = "<group>"; };
-		AE48D9A51AB6752800109FA1 /* HMAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMAnimationView.m; sourceTree = "<group>"; };
 		AE98F8621AB6D6D700E1F36B /* HMAnimationImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMAnimationImageView.h; sourceTree = "<group>"; };
 		AE98F8631AB6D6D700E1F36B /* HMAnimationImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMAnimationImageView.m; sourceTree = "<group>"; };
 		AE98F8651AB6E6CE00E1F36B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -113,8 +110,6 @@
 				AE48D9751AB669A400109FA1 /* ViewController.m */,
 				AE98F8651AB6E6CE00E1F36B /* SecondViewController.h */,
 				AE98F8661AB6E6CE00E1F36B /* SecondViewController.m */,
-				AE48D9A41AB6752800109FA1 /* HMAnimationView.h */,
-				AE48D9A51AB6752800109FA1 /* HMAnimationView.m */,
 				AE98F8621AB6D6D700E1F36B /* HMAnimationImageView.h */,
 				AE98F8631AB6D6D700E1F36B /* HMAnimationImageView.m */,
 				AE48D9771AB669A400109FA1 /* Main.storyboard */,
@@ -275,7 +270,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE98F8671AB6E6CE00E1F36B /* SecondViewController.m in Sources */,
-				AE48D9A61AB6752800109FA1 /* HMAnimationView.m in Sources */,
 				AE98F8641AB6D6D700E1F36B /* HMAnimationImageView.m in Sources */,
 				AE48D9761AB669A400109FA1 /* ViewController.m in Sources */,
 				AE48D9731AB669A400109FA1 /* AppDelegate.m in Sources */,

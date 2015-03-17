@@ -121,12 +121,6 @@ typedef NS_ENUM(NSUInteger, BezierType) {
     [self addAnimationWithKey:HMAnimationKeyDefault];
 }
 
-// 停止动画（必须调用，否则会产生内存泄露）
-- (void)stopAnimating
-{
-    [super stopAnimating];
-}
-
 // 移除所有动画
 - (void)removeAllAnimations
 {
